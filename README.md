@@ -15,3 +15,4 @@ Run `choco install <script_name>.config -y`
 
 ### utils.config
 This script contains utilities and broswers e.g. Notepad++ and Firefox
+
