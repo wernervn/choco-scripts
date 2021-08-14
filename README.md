@@ -11,8 +11,18 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 
 ## Install Scripts
+
+First run `choco feature enable -n useRememberedArgumentsForUpgrades`.
+
 Run `choco install <script_name>.config -y`
 
 ### utils.config
 This script contains utilities and broswers e.g. Notepad++ and Firefox
+```cmd
+choco install utils.config -y
+```
 
+
+
+## Powershell
+Executing the `Install-Package.ps1` script will install all the packages.
