@@ -2,3 +2,4 @@ git config --global alias.fcp '!git fetch -p --tags && git checkout "$1" && git 
 git config --global alias.co checkout
 git config --global alias.fe '!git fetch -p --tags'
 git config --global alias.up '!git fe && git pull'
+git config --global alias.po '!git pull origin "$1"'
