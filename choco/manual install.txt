@@ -1,0 +1,4 @@
+Nvidia drivers
+SourceTree
+Kdiff
+Visual Studio
